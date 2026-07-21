@@ -1,7 +1,24 @@
-tests/helper/auth/*.json
+# Dependencies
 node_modules/
-/test-results/
-/playwright-report/
-/playwright/.cache/
-/playwright/.auth/
+
+# Environment variables
 .env
+.env.*
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+
+# Allure
+allure-results/
+allure-report/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
