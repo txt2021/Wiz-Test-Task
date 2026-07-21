@@ -11,8 +11,8 @@ test-results/
 blob-report/
 
 # Allure
-allure-results/
-allure-report/
+allure-report
+allure-results
 
 # Logs
 npm-debug.log*

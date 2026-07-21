@@ -1,5 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1116","Scenario 4 - Negative Test","chromium","2026-07-21","passed","2026-07-21","","login.spec.ts","",""
-"","1363","Scenario 3 - Checkout","chromium","2026-07-21","passed","2026-07-21","","checkout.spec.ts","",""
-"","1145","Scenario 1 - Login","chromium","2026-07-21","passed","2026-07-21","","login.spec.ts","",""
-"","1411","Scenario 2 - Shopping Cart","chromium","2026-07-21","passed","2026-07-21","","cart.spec.ts","",""
