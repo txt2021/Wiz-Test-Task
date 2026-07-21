@@ -13,7 +13,9 @@ A UI automation framework built with **Playwright + TypeScript** using the **Pag
 ## Scenarious
 
 Scenarious 1 and 4 both related to login, so both are located in the login.spec.ts
+
 Scenario 2 is located in the cart.spec.ts
+
 Scenario 3 is located in the checkout.spec.ts
 
 
@@ -22,7 +24,7 @@ Scenario 3 is located in the checkout.spec.ts
 Clone the repository
 
 ```bash
-git clone <https://github.com/txt2021/Wiz-Test-Task.git >
+git clone < https://github.com/txt2021/Wiz-Test-Task.git >
 ```
 
 Install dependencies
@@ -62,7 +64,7 @@ npx run test-all --headed
 
 Run a specific test 
 
-Login():
+Login:
 
 ```bash
 npm run test-login
