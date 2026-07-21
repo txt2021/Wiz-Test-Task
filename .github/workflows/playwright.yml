@@ -16,9 +16,10 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      TEST_USER_EMAIL: ${{ secrets.TEST_USER_EMAIL }}
-      TEST_USER_PASSWORD: ${{ secrets.TEST_USER_PASSWORD }}
-      TEST_USER_INVALID_EMAIL: ${{ secrets.TEST_USER_INVALID_EMAIL }}
+      BASE_URL: ${{ secrets.BASE_URL }}
+      VALID_TEST_USERNAME: ${{ secrets.VALID_TEST_USERNAME }}
+      INVALID_TEST_USERNAME: ${{ secrets.INVALID_TEST_USERNAME }}
+      VALID_TEST_PASSWORD: ${{ secrets.VALID_TEST_PASSWORD }}
 
     steps:
       - name: Checkout repository
